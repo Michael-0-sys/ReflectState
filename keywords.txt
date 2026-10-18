@@ -1,0 +1,69 @@
+#######################################
+# Syntax Coloring Map For ReflectState
+#######################################
+
+# Datatypes (KEYWORD1)
+StateManager	KEYWORD1
+StateError	KEYWORD1
+StateSetStatus	KEYWORD1
+StateSetResult	KEYWORD1
+NoLock	KEYWORD1
+IrqLock	KEYWORD1
+PicoLock	KEYWORD1
+Esp32Lock	KEYWORD1
+Var	KEYWORD1
+
+# Methods and functions (KEYWORD2)
+add	KEYWORD2
+addAll	KEYWORD2
+remove	KEYWORD2
+clear	KEYWORD2
+has	KEYWORD2
+get	KEYWORD2
+tryGet	KEYWORD2
+getOr	KEYWORD2
+set	KEYWORD2
+trySet	KEYWORD2
+setSilent	KEYWORD2
+update	KEYWORD2
+tryUpdate	KEYWORD2
+notify	KEYWORD2
+setTolerance	KEYWORD2
+setComparator	KEYWORD2
+onChange	KEYWORD2
+removeCallback	KEYWORD2
+removeAllCallbacks	KEYWORD2
+scopedLock	KEYWORD2
+lock	KEYWORD2
+unlock	KEYWORD2
+entryCount	KEYWORD2
+entryCapacity	KEYWORD2
+storageUsed	KEYWORD2
+storageFree	KEYWORD2
+storageCapacity	KEYWORD2
+listenerCount	KEYWORD2
+listenerCapacity	KEYWORD2
+lastErrorCode	KEYWORD2
+lastError	KEYWORD2
+clearError	KEYWORD2
+approxEqual	KEYWORD2
+forEachMember	KEYWORD2
+errorText	KEYWORD2
+statusText	KEYWORD2
+forEach	KEYWORD2
+ok	KEYWORD2
+changed	KEYWORD2
+stored	KEYWORD2
+fn	KEYWORD2
+fx	KEYWORD2
+
+# Constants and macros (LITERAL1)
+STATE_VARIABLES	LITERAL1
+STATE_VAR	LITERAL1
+STATE_ON_ERROR	LITERAL1
+STATE_MAX_DISPATCH_DEPTH	LITERAL1
+REFLECT	LITERAL1
+MEMBER	LITERAL1
+MEMBER_AS	LITERAL1
+COMMENT	LITERAL1
+reflectstate	LITERAL1

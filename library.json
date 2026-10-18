@@ -1,0 +1,19 @@
+{
+  "name": "ReflectState",
+  "version": "1.0.0",
+  "description": "Heap-free typed state store with change callbacks and lock policies for microcontrollers, sharing struct reflection with ReflectJSON/ReflectINI (C++17).",
+  "keywords": "state, observer, observable, callback, reflection, struct, multicore, embedded",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Michael-0-sys/ReflectState.git"
+  },
+  "authors": [
+    { "name": "Michael", "email": "michi.fu@quickline.ch", "maintainer": true }
+  ],
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "build": { "flags": ["-std=gnu++17"], "unflags": ["-std=gnu++11", "-std=gnu++14"] },
+  "headers": "ReflectState.h",
+  "export": { "exclude": ["test/build"] }
+}
