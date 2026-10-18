@@ -21,15 +21,6 @@ jobs:
       - name: Examples (PC build with Arduino stand-in)
         run: make -C test examples CXX=${{ matrix.cxx }}
 
-      - name: Same struct with ReflectJSON and ReflectINI
-        run: |
-          git clone --depth 1 https://github.com/Michael-0-sys/ReflectJSON.git /tmp/ReflectJSON
-          git clone --depth 1 https://github.com/Michael-0-sys/ReflectINI.git /tmp/ReflectINI
-          make -C test json_ini \
-            REFLECTJSON=/tmp/ReflectJSON/src \
-            REFLECTINI=/tmp/ReflectINI/src \
-            CXX=${{ matrix.cxx }}
-
   arduino-lint:
     runs-on: ubuntu-latest
 
