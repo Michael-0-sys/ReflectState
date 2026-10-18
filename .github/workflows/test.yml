@@ -38,7 +38,7 @@ jobs:
 
       - uses: arduino/arduino-lint-action@v2
         with:
-          library-manager: update
+          library-manager: submit
           compliance: specification
 
   compile-examples:
