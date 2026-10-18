@@ -1,0 +1,5 @@
+test/build/
+*.o
+*.elf
+.vscode/
+.pio/
